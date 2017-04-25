@@ -1,0 +1,54 @@
+NAV
+[ ] ABOUT
+[ ] DOG BREEDERS
+[ ] MY ACCOUNT
+
+
+HOME PAGE / INDEX PAGE
+[ ] Welcome message & register/login links are displayed to logged-out users
+[ ] List of breeders are displayed to logged-in users
+[ ] All users can click on individual breeder to get to dog breeder's profile. 
+
+ABOUT / CONTACT PAGE
+[ ] Everyone should be able to access contact page
+[ ] Blurb about what this website does and how to contact admin. 
+
+USERS 
+[ ] All users must be able to register with Dog Seeker or Dog Breeder account
+[ ] All users must be able to log in and log out
+[ ] All users must be able to edit their user account
+[ ] All users should be able to view dog breeder profiles
+[ ] Dog Seekers shoulld be able to write reviews
+[ ] Dog Breeders should be able to create and edit dog breeder profiles
+
+USER PROFILES (MAYBE)
+[ ] Name
+[ ] Dog Breeder/ Dog Seeker Label
+[ ] Location
+[ ] Email
+ 
+DOG BREEDER PROFILES
+[ ] Each dog breeder should have one profile
+[ ] Profile should indicate if it's added by a Dog Lover or Dog Breeder.
+[ ] Profile should include Breeder's business name
+[ ] Profile should include Breed(s)
+[ ] Profile should include Breeder's contact email 
+[ ] Profile should include Breeder's contact phone 
+[ ] Profile should include Breeder's website (optional)
+[ ] Profile should include reviews 
+
+SEARCH
+[ ] Users can search by keywords
+[ ] Users can filter by location
+[ ] Users can filter by dog breed
+
+REVIEWS
+[ ] Review should be associated with Dog Seeker users
+
+
+STRIPE INTEGRATION (For Dog Breeder accounts)
+[ ] Dog Breeder must enter CC info when registering
+
+
+
+ 
