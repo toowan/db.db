@@ -49,7 +49,7 @@ html, body {
 }
 
 
-body, .navbar {
+.navbar, .row-fluid {
   //Gradient provided by @_ighosh at uiGradients.com
 	background: #E8CBC0;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -58,6 +58,7 @@ body, .navbar {
 
 .navbar {
   border: none;
+  margin-bottom: 0;
 }
 
 
