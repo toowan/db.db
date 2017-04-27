@@ -1,0 +1,42 @@
+.form-label {
+  font-weight: bold;
+}
+
+
+.btn-form {
+  background-color: #636FA4;
+  opacity: 0.75;
+  color: white; 
+  border: none;
+  &:hover, &:active, &:focus {
+    background-color: #636FA4;
+    color: white;
+  }
+}
+
+input.form-control, textarea.form-control {
+  border: 1px solid #CCC !important; 
+  outline:none !important;
+}
+
+.devise-links > a {
+  color: #636FA4; 
+    &:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #E8CBC0;
+  }
+}
+
+#error_explanation > h2 {
+  font-family: 'Helvetica', 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+}
+
+#error_explanation > ul {
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}

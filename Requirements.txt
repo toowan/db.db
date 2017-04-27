@@ -5,7 +5,7 @@ NAV
 
 
 HOME PAGE / INDEX PAGE
-[ ] Welcome message & register/login links are displayed to logged-out users
+[x] Welcome message & register/login links are displayed to logged-out users
 [ ] List of breeders are displayed to logged-in users
 [ ] All users can click on individual breeder to get to dog breeder's profile. 
 
@@ -15,8 +15,8 @@ ABOUT / CONTACT PAGE
 
 USERS 
 [ ] All users must be able to register with Dog Seeker or Dog Breeder account
-[ ] All users must be able to log in and log out
-[ ] All users must be able to edit their user account
+[x] All users must be able to log in and log out
+[x] All users must be able to edit their user account
 [ ] All users should be able to view dog breeder profiles
 [ ] Dog Seekers shoulld be able to write reviews
 [ ] Dog Breeders should be able to create and edit dog breeder profiles
