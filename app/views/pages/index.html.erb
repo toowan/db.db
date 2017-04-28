@@ -3,8 +3,8 @@
     <div class="text-center db-container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <h1>Dog Breeders</h1>
-          <p>List of dog breeders</p>
+          <p><%= link_to "View All Breeders", profiles_path %></p>
+          <p><%= link_to "Add a Breeder", new_profile_path %></p>
         </div>
       </div>
     </div>
@@ -12,8 +12,8 @@
     <div class="row-fluid">
   	  <div class="home-callout text-center centering">
   			<h2 class="tagline">Find and research reputable dog breeders.</h2>
+        <h3><%= link_to "Log In", new_user_session_path, class: "btn btn-lg home-button" %></h3>
   			<h3><%= link_to "Register", new_user_registration_path, class: "btn btn-lg home-button" %></h3>
-  			<h3><%= link_to "Log In", new_user_session_path, class: "btn btn-lg home-button" %></h3>
   		</div>
     </div>
 	<% end %>

@@ -74,6 +74,20 @@ html, body {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #a69eb2;
+    opacity: 0.75;
+  }
+}
+
+
+
 body, h1, h2, h3, p, a, input {
   font-family: 'Helvetica', 'Open Sans', sans-serif;
   font-weight: 300;
@@ -125,11 +139,11 @@ footer {
 }
 
 .site-footer > p {
-  color: white;
+  color: #636FA4;
 }
 
 .site-footer > p > a {
-  color: white;
+  color: #636FA4;
   opacity: 0.75;
   &:hover {
     text-decoration: none;

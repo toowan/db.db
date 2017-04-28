@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   resources :contacts, only: :create
   get 'about', to: 'contacts#new', as: 'new_contact'
 
+
+  resources :profiles
+
 end
