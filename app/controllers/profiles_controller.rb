@@ -1,4 +1,7 @@
 class ProfilesController < ApplicationController
+  before_action :authenticate_user!
+
+
 	def new
 		@profile = Profile.new
 	end
@@ -34,7 +37,6 @@ class ProfilesController < ApplicationController
   end
 
   def index
-    @profiles = Profile.all
   end
 
 

@@ -19,7 +19,7 @@
             <span class="icon-bar"></span>
           </button>
           <% if user_signed_in? %>
-            <%= link_to profiles_path, class: "navbar-brand" do %><i class="fa fa-paw"></i> DB.DB<% end %> </p>
+            <%= link_to breeders_path, class: "navbar-brand" do %><i class="fa fa-paw"></i> DB.DB<% end %> </p>
           <% else %>
             <%= link_to root_path, class: "navbar-brand" do %><i class="fa fa-paw"></i> DB.DB<% end %> </p>
           <% end %>
@@ -27,15 +27,15 @@
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
             <% if user_signed_in? %>
-              <li><%= link_to "Breeders", profiles_path %></li>
+              <li><%= link_to "Breeders", breeders_path %></li>
               <li><%= link_to "My Account", edit_user_registration_path %></li>
+              <li><%= link_to "About", new_contact_path %></li>
               <li><%= link_to "Log Out", destroy_user_session_path, method: :delete %>
             <% else %>
               <li><%= link_to "Log In", new_user_session_path %>
               <li><%= link_to "Register", new_user_registration_path %>
               <li><%= link_to "About", new_contact_path %></li>
             <% end %>
-
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>

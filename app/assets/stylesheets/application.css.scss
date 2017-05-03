@@ -93,6 +93,13 @@ body, h1, h2, h3, p, a, input {
   font-weight: 300;
 }
 
+a {
+  color: #636FA4;
+  &:hover, &:active, &:focus {
+    color: #636FA4;
+    opacity: 0.85;
+  }
+}
 
 .tagline {
   font-family:'Chewy', cursive;
