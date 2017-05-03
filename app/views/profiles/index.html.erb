@@ -1,0 +1,31 @@
+<div class="container">
+  <p class="text-center"><%= link_to "Add a Breeder", new_profile_path %></p>
+  <div class="well">
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Breeder</th>
+              <th>Breed</th>
+              <th>Location</th>
+              <th>Email</th>
+              <th>Phone Number</th>
+              <th>Website</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% Profile.all.each do |profile| %>
+            <tr>
+              <td><%= profile.breeder_name %></td>
+              <td><%= profile.dog_breed %></td>
+              <td><%= profile.location %></td>
+              <td><%= mail_to profile.email, profile.email %></td>
+              <td><%= profile.phone_number %></td>
+              <td><%= link_to profile.website, profile.website, :target => "_blank" %></td>
+            <tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</div>

@@ -44,12 +44,13 @@ gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise', '4.2.0'
 
+gem 'pg', '0.18.4'
+
 group :development, :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
@@ -58,10 +59,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
 end
-group :production do
-  # Use the PostgreSQL gem for Heroku production servers
-  gem 'pg', '0.18.4'
-end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ruby '2.3.1'

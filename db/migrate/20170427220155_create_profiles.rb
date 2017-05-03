@@ -3,6 +3,7 @@ class CreateProfiles < ActiveRecord::Migration[5.0]
     create_table :profiles do |t|
     	t.string :breeder_name
     	t.string :dog_breed
+        t.string :location
     	t.string :email
     	t.string :phone_number
     	t.string :website
